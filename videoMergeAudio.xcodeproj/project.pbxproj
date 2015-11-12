@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC509AF81BF467DF007BEEDA /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC509AF71BF467DF007BEEDA /* 3.mp4 */; };
 		FC8CF2301BCCA34E00395ED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF22F1BCCA34E00395ED0 /* main.m */; };
 		FC8CF2331BCCA34E00395ED0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF2321BCCA34E00395ED0 /* AppDelegate.m */; };
 		FC8CF2361BCCA34E00395ED0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF2351BCCA34E00395ED0 /* ViewController.m */; };
@@ -15,8 +16,8 @@
 		FC8CF23E1BCCA34E00395ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8CF23C1BCCA34E00395ED0 /* LaunchScreen.storyboard */; };
 		FC8CF2491BCCA34E00395ED0 /* videoMergeAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF2481BCCA34E00395ED0 /* videoMergeAudioTests.m */; };
 		FC8CF2541BCCA34E00395ED0 /* videoMergeAudioUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8CF2531BCCA34E00395ED0 /* videoMergeAudioUITests.m */; };
-		FC8CF2621BCCA36B00395ED0 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC8CF2611BCCA36B00395ED0 /* 1.mp4 */; settings = {ASSET_TAGS = (); }; };
-		FC8CF2641BCCA38500395ED0 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC8CF2631BCCA38500395ED0 /* 2.mp4 */; settings = {ASSET_TAGS = (); }; };
+		FC8CF2621BCCA36B00395ED0 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC8CF2611BCCA36B00395ED0 /* 1.mp4 */; };
+		FC8CF2641BCCA38500395ED0 /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = FC8CF2631BCCA38500395ED0 /* 2.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC509AF71BF467DF007BEEDA /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
 		FC8CF22B1BCCA34E00395ED0 /* videoMergeAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoMergeAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8CF22F1BCCA34E00395ED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC8CF2311BCCA34E00395ED0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		FC8CF22D1BCCA34E00395ED0 /* videoMergeAudio */ = {
 			isa = PBXGroup;
 			children = (
+				FC509AF71BF467DF007BEEDA /* 3.mp4 */,
 				FC8CF2611BCCA36B00395ED0 /* 1.mp4 */,
 				FC8CF2311BCCA34E00395ED0 /* AppDelegate.h */,
 				FC8CF2321BCCA34E00395ED0 /* AppDelegate.m */,
@@ -252,6 +255,7 @@
 				FC8CF2641BCCA38500395ED0 /* 2.mp4 in Resources */,
 				FC8CF2621BCCA36B00395ED0 /* 1.mp4 in Resources */,
 				FC8CF23E1BCCA34E00395ED0 /* LaunchScreen.storyboard in Resources */,
+				FC509AF81BF467DF007BEEDA /* 3.mp4 in Resources */,
 				FC8CF23B1BCCA34E00395ED0 /* Assets.xcassets in Resources */,
 				FC8CF2391BCCA34E00395ED0 /* Main.storyboard in Resources */,
 			);
@@ -504,6 +508,7 @@
 				FC8CF25A1BCCA34E00395ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8CF25B1BCCA34E00395ED0 /* Build configuration list for PBXNativeTarget "videoMergeAudioTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +517,7 @@
 				FC8CF25D1BCCA34E00395ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8CF25E1BCCA34E00395ED0 /* Build configuration list for PBXNativeTarget "videoMergeAudioUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +526,7 @@
 				FC8CF2601BCCA34E00395ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
